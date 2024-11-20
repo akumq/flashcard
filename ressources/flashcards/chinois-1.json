@@ -1,0 +1,105 @@
+{
+    "courseName": "Chinois - Chapitre 1",
+    "flashcards": [
+        {
+            "question": "Comment dit-on 'Bonjour' en chinois ?",
+            "answer": "你好 (Nǐ hǎo)"
+        },
+        {
+            "question": "Comment dit-on 'Au revoir' en chinois ?",
+            "answer": "再见 (Zài jiàn)"
+        },
+        {
+            "question": "Comment dit-on 'Merci' en chinois ?",
+            "answer": "谢谢 (Xiè xiè)"
+        },
+        {
+            "question": "Comment dit-on 'De rien' en chinois ?",
+            "answer": "不客气 (Bù kè qi)"
+        },
+        {
+            "question": "Comment dit-on 'Je vais bien, merci !' en chinois ?",
+            "answer": "我很好，谢谢 (Wǒ hěn hǎo, xiè xiè)"
+        },
+        {
+            "question": "Comment dit-on 'Je ne vais pas bien' en chinois ?",
+            "answer": "我不好 (Wǒ bù hǎo)"
+        },
+        {
+            "question": "Comment dit-on 'Bonjour Professeur !' en chinois ?",
+            "answer": "老师好 (Lǎo shī hǎo)"
+        },
+        {
+            "question": "Comment dit-on 'Au revoir Professeur !' en chinois ?",
+            "answer": "老师再见 (Lǎo shī zài jiàn)"
+        },
+        {
+            "question": "Comment dit-on 'J'aime ma maman' en chinois ?",
+            "answer": "我爱我妈妈 (Wǒ ài wǒ mā ma)"
+        },
+        {
+            "question": "Comment dit-on 'Maman, je vous aime' en chinois ?",
+            "answer": "妈妈，我爱您 (Mā ma, wǒ ài nín)"
+        },
+        {
+            "question": "Qu'est-ce que le pinyin ?",
+            "answer": "Le pinyin est un système de notation phonétique qui permet de transcrire les sons de la langue chinoise au moyen de l'alphabet latin."
+        },
+        {
+            "question": "Quels sont les quatre tons en chinois ?",
+            "answer": "Les quatre tons en chinois sont : le premier ton (haut et plat), le deuxième ton (montant), le troisième ton (descendant puis montant), et le quatrième ton (descendant)."
+        },
+        {
+            "question": "Comment marque-t-on le ton en pinyin ?",
+            "answer": "Le ton est marqué au-dessus de la voyelle principale de la syllabe."
+        },
+        {
+            "question": "Comment dit-on 'te' ou 'toi' en chinois ?",
+            "answer": "你 (Nǐ)"
+        },
+        {
+            "question": "Comment dit-on 'je' ou 'moi' en chinois ?",
+            "answer": "我 (Wǒ)"
+        },
+        {
+            "question": "Comment dit-on 'bon' ou 'bien' en chinois ?",
+            "answer": "好 (Hǎo)"
+        },
+        {
+            "question": "Comment dit-on 'très' en chinois ?",
+            "answer": "很 (Hěn)"
+        },
+        {
+            "question": "Comment dit-on 'ne...pas' en chinois ?",
+            "answer": "不 (Bù)"
+        },
+        {
+            "question": "Comment dit-on 'maman' en chinois ?",
+            "answer": "妈 (Mā)"
+        },
+        {
+            "question": "Comment dit-on 'camarade d'école' en chinois ?",
+            "answer": "同学 (Tóng xué)"
+        },
+        {
+            "question": "Comment dit-on 'apprendre' ou 'étudier' en chinois ?",
+            "answer": "学 (Xué)"
+        },
+        {
+            "question": "Comment dit-on 'chinois' ou 'langue chinoise' en chinois ?",
+            "answer": "中文 (Zhōng wén)"
+        },
+        {
+            "question": "Comment dit-on 'professeur' en chinois ?",
+            "answer": "老师 (Lǎo shī)"
+        },
+        {
+            "question": "Comment dit-on 'aimer' en chinois ?",
+            "answer": "爱 (Ài)"
+        },
+        {
+            "question": "Comment dit-on 'remercier' en chinois ?",
+            "answer": "谢 (Xiè)"
+        }
+    ]
+}

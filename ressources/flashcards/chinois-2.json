@@ -1,0 +1,133 @@
+{
+    "courseName": "Chinois - Chapitre 2",
+    "flashcards": [
+        {
+            "question": "Comment dit-on 'un' en chinois ?",
+            "answer": "一 (yī)"
+        },
+        {
+            "question": "Comment dit-on 'deux' en chinois ?",
+            "answer": "二 (èr)"
+        },
+        {
+            "question": "Comment dit-on 'trois' en chinois ?",
+            "answer": "三 (sān)"
+        },
+        {
+            "question": "Comment dit-on 'dix' en chinois ?",
+            "answer": "十 (shí)"
+        },
+        {
+            "question": "Comment dit-on 'onze' en chinois ?",
+            "answer": "十一 (shí yī)"
+        },
+        {
+            "question": "Comment dit-on 'vingt' en chinois ?",
+            "answer": "二十 (èr shí)"
+        },
+        {
+            "question": "Comment dit-on 'travail' en chinois ?",
+            "answer": "工 (gōng)"
+        },
+        {
+            "question": "Comment dit-on 'roi' en chinois ?",
+            "answer": "王 (wáng)"
+        },
+        {
+            "question": "Comment dit-on 'au-dessus' en chinois ?",
+            "answer": "上 (shàng)"
+        },
+        {
+            "question": "Comment dit-on 'en-dessous' en chinois ?",
+            "answer": "下 (xià)"
+        },
+        {
+            "question": "Comment dit-on 'homme' en chinois ?",
+            "answer": "人 (rén)"
+        },
+        {
+            "question": "Comment dit-on 'bois' en chinois ?",
+            "answer": "木 (mù)"
+        },
+        {
+            "question": "Comment dit-on 'centre' en chinois ?",
+            "answer": "中 (zhōng)"
+        },
+        {
+            "question": "Comment dit-on 'écriture' en chinois ?",
+            "answer": "文 (wén)"
+        },
+        {
+            "question": "Comment dit-on 'ciel' en chinois ?",
+            "answer": "天 (tiān)"
+        },
+        {
+            "question": "Comment dit-on 'pays' en chinois ?",
+            "answer": "国 (guó)"
+        },
+        {
+            "question": "Comment dit-on 'bouche' en chinois ?",
+            "answer": "口 (kǒu)"
+        },
+        {
+            "question": "Comment dit-on 'merci' en chinois ?",
+            "answer": "谢谢你 (xiè xiè nǐ)"
+        },
+        {
+            "question": "Comment dit-on 'montagne' en chinois ?",
+            "answer": "山 (shān)"
+        },
+        {
+            "question": "Comment dit-on 'janvier' en chinois ?",
+            "answer": "一月 (yī yuè)"
+        },
+        {
+            "question": "Comment dit-on 'soleil' en chinois ?",
+            "answer": "日 (rì)"
+        },
+        {
+            "question": "Comment dit-on 'eau' en chinois ?",
+            "answer": "水 (shuǐ)"
+        },
+        {
+            "question": "Comment dit-on 'feu' en chinois ?",
+            "answer": "火 (huǒ)"
+        },
+        {
+            "question": "Comment dit-on 'grand' en chinois ?",
+            "answer": "大 (dà)"
+        },
+        {
+            "question": "Comment dit-on 'correct' en chinois ?",
+            "answer": "对 (duì)"
+        },
+        {
+            "question": "Comment dit-on 'Pardon !' en chinois ?",
+            "answer": "对不起 (duì bu qǐ)"
+        },
+        {
+            "question": "Comment dit-on 'Ce n'est rien.' en chinois ?",
+            "answer": "没关系 (méi guān xi)"
+        },
+        {
+            "question": "Comment dit-on 'Je t'aime !' en chinois ?",
+            "answer": "我爱你 (wǒ ài nǐ)"
+        },
+        {
+            "question": "Comment dit-on 'Est-ce que tu m'aimes ?' en chinois ?",
+            "answer": "你爱我吗 (nǐ ài wǒ ma)"
+        },
+        {
+            "question": "Quelles sont les catégories des sinogrammes ?",
+            "answer": "Pictogrammes, Idéogrammes, Idéogrammes composés, Idéo phonogrammes"
+        },
+        {
+            "question": "Quels sont les traits fondamentaux en chinois ?",
+            "answer": "Le trait horizontal, le trait vertical, le point, le trait jeté, le trait brisé, le crochet final, le trait diagonal à droite, le trait diagonal gauche"
+        },
+        {
+            "question": "Quel est l'ordre des traits d'un caractère chinois ?",
+            "answer": "Du haut vers le bas, trait de gauche puis trait de droite, trait horizontal puis vertical, trait vertical à gauche avant trait complexe à droite, trait horizontal en bas en dernier, trait central avant les ailes, trait tombant vers la gauche puis vers la droite, point flottant en dernier"
+        }
+    ]
+}

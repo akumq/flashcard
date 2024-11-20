@@ -1,0 +1,129 @@
+{
+    "courseName": "Chinois - Chapitre 3",
+    "flashcards": [
+        {
+            "question": "Comment dit-on 'Comment tu t'appelles ?' en chinois ?",
+            "answer": "你叫什么名字？ (Nǐ jiào shén me míng zi ?)"
+        },
+        {
+            "question": "Comment répondre 'Je m'appelle Li Yue' en chinois ?",
+            "answer": "我叫李月。(Wǒ jiào Lǐ Yuè.)"
+        },
+        {
+            "question": "Que signifie 'shén me' ?",
+            "answer": "que / quoi, quel, to"
+        },
+        {
+            "question": "Que signifie 'míng zi' ?",
+            "answer": "nom d'une personne"
+        },
+        {
+            "question": "Comment dit-on 'Je suis professeur' en chinois ?",
+            "answer": "我是老师。(Wǒ shì lǎo shī.)"
+        },
+        {
+            "question": "Comment demander 'Es-tu chinois ?' en chinois ?",
+            "answer": "你是中国人吗？(Nǐ shì Zhōng guó rén ma ?)"
+        },
+        {
+            "question": "Comment répondre 'Je ne suis pas chinois, je suis américain' en chinois ?",
+            "answer": "我不是中国人，我是美国人。(Wǒ bù shì Zhōng guó rén, wǒ shì Měi guó rén.)"
+        },
+        {
+            "question": "Comment compter de 10 à 19 en chinois ?",
+            "answer": "十 + unité (Exemple : 十一 shí yī pour 11)"
+        },
+        {
+            "question": "Comment compter à partir de 20 en chinois ?",
+            "answer": "chiffre + 十 + unité (Exemple : 二十一 èr shí yī pour 21)"
+        },
+        {
+            "question": "Comment dit-on les mois en chinois ?",
+            "answer": "一月、二月、三月、四月、五月、六月、七月、八月、九月、十月、十一月、十二月 (yī yuè, èr yuè, ..., shí èr yuè)"
+        },
+        {
+            "question": "Quelles sont les deux prononciations du chiffre 1 en chinois ?",
+            "answer": "yī (premier ton) et yì (quatrième ton)"
+        },
+        {
+            "question": "Comment écrire 'yi' et 'wu' en pinyin ?",
+            "answer": "yi devient 'yī' et 'wu' devient 'wū'"
+        },
+        {
+            "question": "Comment se compose un nom chinois ?",
+            "answer": "姓名 = nom 姓 + prénom 名"
+        },
+        {
+            "question": "Comment demander 'Comment tu t'appelles ?' en incluant le nom de famille ?",
+            "answer": "你姓什么？(Nǐ xìng shén me ?)"
+        },
+        {
+            "question": "Comment utiliser le pronom interrogatif 什么 ?",
+            "answer": "sujet + verbe + 什么 + (nom) ? (Exemple : 你叫什么名字？)"
+        },
+        {
+            "question": "Comment utiliser le verbe 是 ?",
+            "answer": "S + 是 + nom (Exemple : 他是老师。)"
+        },
+        {
+            "question": "Comment exprimer la possession en chinois ?",
+            "answer": "Propriétaire + 的 + possédé (Exemple : 老师的名字)"
+        },
+        {
+            "question": "Comment placer le nom et le titre en chinois ?",
+            "answer": "Nom de famille + prénom + titre (Exemple : 李小名, 王老师)"
+        },
+        {
+            "question": "Comment utiliser l'adverbe 也 ?",
+            "answer": "也 se place toujours devant le verbe (Exemple : 我也很喜欢学中文。)"
+        },
+        {
+            "question": "Comment utiliser la particule interrogative 呢 ?",
+            "answer": "sujet + 呢 ? (Exemple : 你好吗？我很好，谢谢，你呢？)"
+        },
+        {
+            "question": "Comment exprimer la nationalité en chinois ?",
+            "answer": "sujet + 是 + nom du pays + 人 (Exemple : 我们是法国人。)"
+        },
+        {
+            "question": "Comment formuler une question affirmative-négative en chinois ?",
+            "answer": "sujet + verbe + négation + verbe (Exemple : 你好不好？)"
+        },
+        {
+            "question": "Quelle est la signification de 马马虎虎 ?",
+            "answer": "comme ci - comme ça (Exemple : 我的中文马马虎虎。)"
+        },
+        {
+            "question": "Comment dit-on 'nom' en chinois ?",
+            "answer": "名字 (míng zi)"
+        },
+        {
+            "question": "Comment dit-on 'prénom' en chinois ?",
+            "answer": "名 (míng)"
+        },
+        {
+            "question": "Comment dit-on 'nom de famille' en chinois ?",
+            "answer": "姓 (xìng)"
+        },
+        {
+            "question": "Comment dit-on 'étudiant' en chinois ?",
+            "answer": "学生 (xué shēng)"
+        },
+        {
+            "question": "Comment dit-on 'France' en chinois ?",
+            "answer": "法国 (Fǎ guó)"
+        },
+        {
+            "question": "Comment dit-on 'Chine' en chinois ?",
+            "answer": "中国 (Zhōng guó)"
+        },
+        {
+            "question": "Comment dit-on 'États-Unis' en chinois ?",
+            "answer": "美国 (Měi guó)"
+        },
+        {
+            "question": "Comment dit-on 'Japon' en chinois ?",
+            "answer": "日本 (Rì běn)"
+        }
+    ]
+}
