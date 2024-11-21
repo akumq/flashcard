@@ -86,6 +86,3 @@ Les contributions sont les bienvenues ! Pour contribuer :
 
 Ce projet est sous licence MIT. Voir le fichier [LICENCE](LICENCE) pour plus de détails.
 
----
-
-N'hésitez pas à personnaliser ce README en fonction de vos besoins spécifiques et des informations de votre projet.
