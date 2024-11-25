@@ -1,0 +1,57 @@
+{
+    "courseName": "TD2 : APPELS SYSTÈME (UBUNTU 18.04)",
+    "flashcards": [
+        {
+            "question": "Quels sont les objectifs de ce TD ?",
+            "answer": "Comprendre les appels système pour la création et la gestion des processus (p. ex. fork, exec, waitpid) et les mécanismes de synchronisation de processus via signal."
+        },
+        {
+            "question": "Quels sont les quatre types d'événements qui peuvent provoquer la création des processus sous Unix ?",
+            "answer": "1. L'initialisation du système, 2. L'appel système fork par un processus en exécution, 3. Les requêtes utilisateur sollicitant la création d'un nouveau processus, 4. Le lancement d'un travail en traitement par lots."
+        },
+        {
+            "question": "Que fait l'appel fork ?",
+            "answer": "L'appel fork crée un clone du processus appelant. Après l'appel fork, les deux processus, parent et enfant, ont la même image mémoire et les mêmes fichiers ouverts."
+        },
+        {
+            "question": "Qu'est-ce qu'un signal Unix ?",
+            "answer": "Un signal Unix est un mécanisme qui permet à un processus de réagir de façon asynchrone à un événement qui s'est produit."
+        },
+        {
+            "question": "Quels sont les deux types de signaux Unix ?",
+            "answer": "Les interruptions (signaux asynchrones) et les déroutements (signaux synchrones)."
+        },
+        {
+            "question": "Quels sont les signaux décrits dans le standard POSIX.1-1990 ?",
+            "answer": "SIGINT, SIGQUIT, SIGILL, SIGABRT, SIGFPE, SIGKILL, SIGSEGV, SIGPIPE, SIGALRM, SIGTERM, SIGUSR1, SIGUSR2, SIGCHLD, SIGCONT, SIGSTOP, SIGTSTP, SIGTTIN, SIGTTOU."
+        },
+        {
+            "question": "Quels sont les outils recommandés pour ce TD ?",
+            "answer": "Il est conseillé d'installer l'IDE VSCode pour faire ce TD."
+        },
+        {
+            "question": "Comment consulter le manuel d'utilisation de l'appel fork ?",
+            "answer": "En utilisant la commande 'man -S2 fork'."
+        },
+        {
+            "question": "Combien de processus sont créés après trois appels fork successifs ?",
+            "answer": "Huit processus sont créés."
+        },
+        {
+            "question": "Pourquoi les messages 'mon pID' pour les programmes A et B affichent le même pID ?",
+            "answer": "Parce que l'appel exec remplace l'image mémoire du processus appelant par une nouvelle image, mais conserve le même pID."
+        },
+        {
+            "question": "Pourquoi le texte 'Au revoir depuis A' n'a pas été affiché dans la sortie ?",
+            "answer": "Parce que l'appel exec remplace l'image mémoire du processus appelant, donc le code après l'appel exec n'est pas exécuté."
+        },
+        {
+            "question": "Quelle est la différence entre fork(), exec(), et wait() ?",
+            "answer": "fork() crée un nouveau processus, exec() remplace l'image mémoire du processus appelant, et wait() permet à un processus parent d'attendre la fin de l'exécution d'un processus enfant."
+        },
+        {
+            "question": "Comment utiliser les signaux signal(), kill(), et pause() ?",
+            "answer": "signal() pour définir un gestionnaire de signal, kill() pour envoyer un signal à un processus, et pause() pour mettre en pause un processus jusqu'à la réception d'un signal."
+        }
+    ]
+}
