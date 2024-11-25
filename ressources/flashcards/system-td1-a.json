@@ -1,0 +1,49 @@
+{
+    "courseName": "TD1-A : INTRODUCTION À DES TECHNOLOGIES DE VIRTUALISATION",
+    "flashcards": [
+        {
+            "question": "Quels sont les objectifs de ce TD ?",
+            "answer": "Comprendre les principes de fonctionnement de technologies de virtualisation, savoir installer un système invité sur un système d'exploitation hôte via Machine Virtuelle et Docker, et comprendre la différence entre ces deux approches de virtualisation."
+        },
+        {
+            "question": "Qu'est-ce qu'une machine virtuelle (VM) ?",
+            "answer": "Une machine virtuelle est un appareil informatique créé par un logiciel d'émulation, permettant à un ordinateur hôte de prendre en charge plusieurs VM clientes en partageant virtuellement ses ressources."
+        },
+        {
+            "question": "Qu'est-ce que Docker ?",
+            "answer": "Docker est un logiciel libre qui permet de créer des environnements (appelés conteneurs) de manière à isoler des applications."
+        },
+        {
+            "question": "Comment installer VirtualBox sur Windows ?",
+            "answer": "En téléchargeant la version la plus récente de VirtualBox, en vérifiant son authenticité avec PowerShell, et en suivant les instructions d'installation."
+        },
+        {
+            "question": "Comment installer Ubuntu 18.04 sur une machine virtuelle ?",
+            "answer": "En téléchargeant l'image d'Ubuntu, en vérifiant son authenticité, en créant une nouvelle machine virtuelle avec les paramètres appropriés, et en suivant les instructions d'installation."
+        },
+        {
+            "question": "Comment vérifier la version du système d'exploitation sur une machine virtuelle Ubuntu ?",
+            "answer": "En utilisant la commande cat /etc/os-release."
+        },
+        {
+            "question": "Comment installer Docker sur Windows ?",
+            "answer": "En suivant les instructions d'installation sur le site officiel de Docker."
+        },
+        {
+            "question": "Comment télécharger une image Docker d'Ubuntu 18.04 ?",
+            "answer": "En utilisant la commande docker pull ubuntu:18.04."
+        },
+        {
+            "question": "Comment créer un conteneur Docker à partir d'une image ?",
+            "answer": "En utilisant la commande docker run --name nom_du_conteneur -it nom_de_l_image."
+        },
+        {
+            "question": "Quelle est la différence entre une VM et un conteneur Docker ?",
+            "answer": "Une VM virtualise le matériel et inclut un système d'exploitation complet, tandis qu'un conteneur Docker partage le noyau de l'hôte et inclut uniquement les fichiers nécessaires à l'application."
+        },
+        {
+            "question": "Pourquoi les processus affichés en exécutant la commande top sont beaucoup moins nombreux sur un conteneur que sur une VM ?",
+            "answer": "Parce qu'un conteneur partage le noyau de l'hôte et inclut uniquement les processus nécessaires à l'application, tandis qu'une VM inclut un système d'exploitation complet avec tous ses processus."
+        }
+    ]
+}
