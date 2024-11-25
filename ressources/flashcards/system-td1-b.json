@@ -1,0 +1,37 @@
+{
+    "courseName": "TD1-B : INTRODUCTION À L'ARBORESCENCE LINUX (UBUNTU 18.04)",
+    "flashcards": [
+        {
+            "question": "Quels sont les objectifs de ce TD ?",
+            "answer": "Comprendre la mise en œuvre des objectifs d'indépendance par rapport au matériel et de désignation universelle pour la gestion des ressources et périphériques dans un système d'exploitation."
+        },
+        {
+            "question": "Quelle est la syntaxe élémentaire pour lancer des processus sous Unix et Linux ?",
+            "answer": "La syntaxe élémentaire est décrite dans la Table 1 du document."
+        },
+        {
+            "question": "Comment créer un script en bash ?",
+            "answer": "En utilisant un éditeur de texte comme gedit et en écrivant le script avec la syntaxe appropriée, puis en rendant le script exécutable avec la commande chmod +x."
+        },
+        {
+            "question": "Comment afficher les droits d'accès d'un fichier ?",
+            "answer": "En utilisant la commande ls -l suivie du nom du fichier."
+        },
+        {
+            "question": "Comment exécuter un script bash ?",
+            "answer": "En rendant le script exécutable avec chmod +x et en l'exécutant avec ./nom_du_script.bash."
+        },
+        {
+            "question": "Qu'est-ce que la philosophie 'tout est un fichier' en Linux ?",
+            "answer": "C'est une abstraction de l'arborescence du système de fichiers faite pour représenter divers éléments, tels que les données, les périphériques ou ressources matérielles et des informations système."
+        },
+        {
+            "question": "Où se trouvent les fichiers représentant des périphériques dans Linux ?",
+            "answer": "Dans le dossier /dev."
+        },
+        {
+            "question": "Où se trouvent les informations sur le système et les processus dans Linux ?",
+            "answer": "Dans le dossier /proc."
+        }
+    ]
+}
