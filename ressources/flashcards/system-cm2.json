@@ -3,134 +3,47 @@
     "flashcards": [
         {
             "question": "Qu'est-ce qu'un processus ?",
-            "answer": "Un processus est un concept central de tout système d'exploitation (SE). C'est une abstraction d'un programme en cours d'exécution. Il permet la multiprogrammation, c'est-à-dire la coexistence de plusieurs programmes simultanément en mémoire. Cela permet de mettre à profit les temps d'inactivité d'un programme (par exemple, lors des opérations d'entrée-sortie) pour céder l'unité centrale (UC) à d'autres programmes. Grâce au (pseudo)-parallélisme, une UC est transformée en un ensemble d'UC virtuelles. Un processus est créé à partir d'un programme stocké de manière permanente et est exécuté par l'UC après avoir été chargé en mémoire centrale. Les processus peuvent être dans différents états : en cours d'exécution, prêt, ou bloqué en attente d'une donnée."
+            "answer": "Un processus est une abstraction d'un programme en cours d'exécution. Il permet la multiprogrammation, c'est-à-dire la coexistence de plusieurs programmes simultanément en mémoire."
         },
         {
-            "question": "Quand l'ordonnancement des processus se produit-il ?",
-            "answer": "L'ordonnancement des processus se produit dans plusieurs situations : 
-                        1. Lorsqu'un processus est créé.
-                        2. Lorsqu'un processus se termine (un autre processus en état prêt doit être choisi ou alors exécuter le processus d'inactivité fourni par le SE).
-                        3. Lorsqu'un processus bloque sur des E/S, un sémaphore ou autre.
-                        4. Lorsqu'une interruption d'E/S se produit."
-        },
-        {
-            "question": "Qu'est-ce qu'une ressource dans le contexte de la gestion des processus ?",
-            "answer": "Une ressource est tout élément dont peut avoir besoin un processus. Si la demande dépasse la somme des ressources disponibles, certains demandeurs devront attendre. L'ordonnanceur d'une ressource est un programme qui gère la file d'attente de cette ressource et définit la procédure d'accès à la ressource. L'ordonnancement permet la gestion par le SE de n'importe quelle ressource, comme l'accès à des périphériques, et n'est pas exclusif à la gestion des processus."
-        },
-        {
-            "question": "Quelles informations sont contenues dans la table des processus ?",
-            "answer": "La table des processus contient plusieurs types d'informations : 
-                        - Gestion de processus : registres, compteur ordinal, mot d'état du programme, pointeur de la pile, état du processus, priorité, paramètres d'ordonnancement, ID du processus, temps (début, consommé, etc.).
-                        - Gestion de mémoire : pointeur vers un segment de texte, pointeur vers un segment de données, pointeur vers un segment de la pile.
-                        - Gestion de fichier : répertoire racine, répertoire de travail, descripteurs de fichiers, ID utilisateur, ID du groupe."
+            "question": "Qu'est-ce que la multiprogrammation ?",
+            "answer": "La multiprogrammation permet de mettre à profit les temps d'inactivité d'un programme (par exemple, lors des opérations d'entrée-sortie) pour céder l'UC à d'autres programmes."
         },
         {
             "question": "Qu'est-ce qu'un thread ?",
-            "answer": "Un thread, ou fil d'exécution, est l'exécution d'une séquence indépendante du code d'un programme à l'intérieur d'un processus. Contrairement à un processus traditionnel qui a un seul thread, un processus multi-threadé est composé de plusieurs threads qui s'exécutent simultanément. Les threads permettent l'exécution de tâches parallèles en partageant des ressources avec le processus qui l'a créé, comme la mémoire, les sémaphores, et les fichiers ouverts. Les threads sont généralement invisibles de l'extérieur du processus."
+            "answer": "Un thread, ou fil d'exécution, est l'exécution d'une séquence indépendante du code d'un programme à l'intérieur d'un processus."
         },
         {
-            "question": "Quels sont les avantages du multi-threading ?",
-            "answer": "Les avantages du multi-threading incluent : 
-                        1. Simplification de la programmation en décomposant un programme en plusieurs parties pour traiter des activités simultanées dans un contexte d'application.
-                        2. Efficacité : la création d'un thread est probablement une opération 100 fois plus rapide que celle d'un processus.
-                        3. Gestion plus efficace des E/S : le processus n'est pas bloqué s'il y a d'autre chose à faire en attendant un traitement d'E/S.
-                        4. Communication entre threads moins lourde que la communication entre processus.
-                        5. Réactivité des interfaces utilisateur et des serveurs : éviter le blocage d'une interface utilisateur pendant le traitement d'opérations en arrière-plan et prise en compte simultanée des différentes requêtes par le serveur."
-        },
-        {
-            "question": "Quels sont les scénarios d'intérêt pour le multi-threading ?",
-            "answer": "Les scénarios d'intérêt pour le multi-threading incluent : 
-                        1. Parallélisation de calculs : multiplication de matrices, simulation d'événements discrets indépendants.
-                        2. Réactivité des interfaces utilisateur : éviter le blocage d'une interface utilisateur pendant le traitement d'opérations en arrière-plan.
-                        3. Gestion d'opérations différées : sauvegarde automatique des éditeurs de textes.
-                        4. Réactivité des serveurs : prise en compte simultanée des différentes requêtes par le serveur.
-                        5. Fusion de données sous perturbations et taux d'acquisition variable."
-        },
-        {
-            "question": "Quelles sont les différentes implémentations des threads ?",
-            "answer": "Les threads peuvent être implémentés de différentes manières : 
-                        1. Utilisateur : convient à des SE ne supportant pas les threads, basculement rapide entre threads, évitement d'appels noyau, mais gestion des appels bloquants et blocage du processus face aux défauts de page en mémoire.
-                        2. Noyau : pas besoin d'appel système non-bloquant supplémentaire, gestion efficace du blocage d'un thread, mais les appels systèmes sont coûteux.
-                        3. Hybride : l'application décide du nombre de threads noyau et utilisateur multiplexés, complexité due à la représentation de threads à niveau noyau et utilisateur."
-        },
-        {
-            "question": "Qu'est-ce que le noyau (Kernel) dans UNIX ?",
-            "answer": "Le noyau (Kernel) est la partie centrale d'Unix. Il se charge en mémoire au démarrage et s'occupe de gérer les tâches de base du système, telles que : 
-                        1. L'initialisation du système.
-                        2. La gestion des processus.
-                        3. La gestion des systèmes de fichiers.
-                        4. La gestion de la mémoire et du processeur.
-                        Le noyau est un ensemble de procédures et fonctions en C, et les entrées-sorties sont réalisées en termes de fonctions d'une bibliothèque d'exécution. Le noyau UNIX a une structure monolithique, une vision uniforme des E/S par l'utilisateur, et permet la communication entre processus par tube."
-        },
-        {
-            "question": "Quelles sont les caractéristiques du noyau UNIX ?",
-            "answer": "Les caractéristiques du noyau UNIX incluent : 
-                        1. Structure monolithique (pas de couches).
-                        2. Vision uniforme des E/S par l'utilisateur : tout (périphériques et fichiers) est considéré comme un fichier.
-                        3. Possibilité pour un processus de lancer l'exécution de processus asynchrones (multitâche).
-                        4. Communication entre processus par tube.
-                        5. Possibilité d'étendre l'ensemble des commandes sans modifier le noyau du système.
-                        6. Possibilité de décomposer un processus en plusieurs threads."
-        },
-        {
-            "question": "Qu'est-ce que le Shell dans UNIX ?",
-            "answer": "Le Shell est l'interface utilisateur sous UNIX. C'est un programme qui permet à l'utilisateur de dialoguer avec le noyau. Il joue un double rôle : celui d'un interpréteur de commandes et celui de langage de programmation. Les shells les plus répandus sont : 
-                        1. Bourne Shell (sh) : lancé avec la commande sh.
-                        2. C-Shell (csh) : lancé avec la commande csh.
-                        3. Korn-Shell (ksh) : lancé avec la commande ksh.
-                        4. Bash (Bourne Again Shell) : lancé avec la commande bash, c'est le shell par défaut sous GNU/Linux.
-                        Le Shell permet à l'utilisateur de choisir son environnement de travail et intègre un langage de commandes sophistiqué (scripts)."
-        },
-        {
-            "question": "Quelles sont les caractéristiques de UNIX ?",
-            "answer": "Les caractéristiques de UNIX incluent : 
-                        1. Portabilité : écriture en langage C, permettant une portabilité sur la plupart des architectures, allant des micro-ordinateurs jusqu'aux supercalculateurs.
-                        2. Open-Source : le code source est disponible, permettant aux utilisateurs de personnaliser le système d'exploitation en ajoutant de nouvelles caractéristiques et fonctionnalités.
-                        3. Multi-utilisateurs et Multitâches : plusieurs utilisateurs peuvent accéder simultanément au système, et chaque utilisateur peut effectuer une ou plusieurs tâches en même temps.
-                        4. Temps partagé : les ressources du processeur et du système sont réparties entre les utilisateurs.
-                        5. Interface utilisateur interactive (shell) : intégration d'un langage de commandes sophistiqué (scripts).
-                        6. Système de fichiers hiérarchique : plusieurs systèmes de fichiers peuvent être rattachés au système de fichiers principal.
-                        7. Entrées-Sorties intégrées au système de fichiers : les périphériques sont représentés par des fichiers, rendant le système indépendant du matériel et en assurant la portabilité.
-                        8. Gestion de la mémoire virtuelle : mécanisme d'échange entre la mémoire centrale (MC) et la mémoire de stockage permanent permet de pallier un manque de MC et optimise le système."
+            "question": "Quelle est la différence entre un processus et un thread ?",
+            "answer": "Un processus possède un espace d'adressage et un thread de contrôle unique, tandis qu'un thread est une partie d'un processus qui peut s'exécuter simultanément avec d'autres threads du même processus."
         },
         {
             "question": "Quels sont les objectifs de l'ordonnancement ?",
-            "answer": "Les objectifs de l'ordonnancement sont : 
-                        1. Équité : attribuer à chaque processus un temps processeur équitable.
-                        2. Application de la politique : faire en sorte que la politique définie de gestion soit bien appliquée.
-                        3. Équilibre : faire en sorte que toutes les composantes du système soient exploitées."
+            "answer": "Les objectifs de l'ordonnancement sont l'équité, l'application de la politique de gestion, et l'équilibre des ressources du système."
         },
         {
-            "question": "Qu'est-ce que l'ordonnancement par interruption d'horloge ?",
-            "answer": "L'ordonnancement par interruption d'horloge peut être de deux types : 
-                        1. Non préemptif : exécution jusqu'à la fin ou blocage du processus. Aucune décision d'ordonnancement n'intervient pendant les interruptions d'horloge.
-                        2. Préemptif : sélection de processus pour exécution pendant un quantum déterminé. Cela garantit que tout processus est servi au bout d'un temps fini et assure l'interactivité du système. Par exemple, l'ordonnanceur complètement équitable (CFS) utilisé dans le noyau Linux après la version 2.6.23 assure une latence cible et un quantum variable pour garantir l'équité vis-à-vis des processus dormants."
+            "question": "Qu'est-ce que le traitement par lots ?",
+            "answer": "Le traitement par lots est un type d'ordonnancement où les algorithmes peuvent être non préemptifs ou préemptifs, servant des longs délais."
         },
         {
-            "question": "Quels sont les scénarios d'ordonnancement ?",
-            "answer": "Les scénarios d'ordonnancement incluent : 
-                        1. Traitement par lots : algorithmes non préemptifs ou préemptifs servant des longs délais.
-                        2. Systèmes interactifs : algorithmes préemptifs qui empêchent qu'un processus donné s'empare de l'UC de sorte à nuire l'interactivité du système (traitement fréquent d'E/S de périphériques telles que la souris et le clavier).
-                        3. Systèmes temps réel : la préemption est parfois inutile car les processus se bloquent rapidement (système non interactifs)."
-        },
-        {
-            "question": "Quels sont les algorithmes d'ordonnancement ?",
-            "answer": "Les algorithmes d'ordonnancement incluent : 
-                        1. Pour le traitement par lots : Premier arrivé, premier servi (FIFO), Job le plus court en premier, Temps restant suivant le plus court.
-                        2. Pour les systèmes interactifs : Tourniquet (round robin), Par priorités, Files d'attente multiples, Processus suivant le plus court, Garanti, Tirage au sort, CFS.
-                        3. Pour les systèmes temps réel : Statiques, Dynamiques."
-        },
-        {
-            "question": "Qu'est-ce que l'algorithme Premier arrivé, premier servi (FIFO) ?",
-            "answer": "L'algorithme Premier arrivé, premier servi (FIFO) attribue le temps processeur selon l'ordre d'arrivée. Il est non préemptif. Après blocage, un processus prêt est placé à la fin de la file d'attente. Les avantages incluent la simplicité et une haute efficacité de l'UC (faible overhead). Les inconvénients incluent un temps de réponse élevé pour les travaux courts derrière des travaux longs."
-        },
-        {
-            "question": "Qu'est-ce que l'algorithme Tourniquet (round robin) ?",
-            "answer": "L'algorithme Tourniquet (round robin) assigne un quantum d'exécution. Il est préemptif. Les avantages incluent la simplicité, la garantie que tout processus est servi au bout d'un temps fini, et l'interactivité. Les inconvénients incluent le compromis entre le quantum et le nombre de processus : un quantum trop court entraîne une chute d'efficacité, tandis qu'un quantum trop long augmente le temps de réponse, impactant l'interactivité."
+            "question": "Qu'est-ce qu'un système interactif ?",
+            "answer": "Un système interactif utilise des algorithmes préemptifs pour empêcher qu'un processus donné s'empare de l'UC, nuisant ainsi à l'interactivité du système."
         },
         {
             "question": "Qu'est-ce que l'ordonnanceur complètement équitable (CFS) ?",
-            "answer": "L'ordonnanceur complètement équitable (CFS) est utilisé dans le noyau Linux après la version 2.6.23 pour le temps partagé. Il utilise une latence cible et un quantum variable avec une granularité en nanosecondes. Le choix se fait en fonction du temps d'exécution virtuel le plus petit. Il est préemptif. Les avantages incluent l'interactivité et l'équité vis-à-vis des processus dormants. Les inconvénients incluent le coût d'implémentation."
+            "answer": "L'ordonnanceur complètement équitable (CFS) est utilisé dans le noyau Linux (> 2.6.23) pour garantir l'équité et l'interactivité en choisissant les processus en fonction du temps d'exécution virtuel le plus petit."
+        },
+        {
+            "question": "Quelles sont les caractéristiques du noyau UNIX ?",
+            "answer": "Le noyau UNIX est écrit en C, a une structure monolithique, et permet la communication entre processus par 'tube', la décomposition en threads, et l'extension des commandes sans modifier le noyau."
+        },
+        {
+            "question": "Qu'est-ce que le Shell UNIX ?",
+            "answer": "Le Shell UNIX est l'interface utilisateur qui permet de dialoguer avec le noyau. Il joue le rôle d'interpréteur de commandes et de langage de programmation."
+        },
+        {
+            "question": "Quelles sont les caractéristiques de UNIX ?",
+            "answer": "UNIX est portable, open-source, multi-utilisateurs, multitâches, et possède une interface utilisateur interactive, un système de fichiers hiérarchique, et une gestion de la mémoire virtuelle."
         }
     ]
 }
