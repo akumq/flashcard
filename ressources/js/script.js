@@ -12,6 +12,7 @@ const loadCardBtn = document.getElementById('load-card');
 
 // Liste de fichiers JSON
 const jsonFiles = [
+    'system-cm2.json',
     'system-td1-a.json',
     'system-td1-b.json',
     'system-td2.json',
