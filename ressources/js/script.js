@@ -12,9 +12,9 @@ const loadCardBtn = document.getElementById('load-card');
 
 // Liste de fichiers JSON
 const jsonFiles = [
-    'chinois-1.json',
-    'chinois-2.json',
-    'chinois-3.json',
+    'system-td1-a.json',
+    'system-td1-b.json',
+    'system-td2.json',
 ];
 
 // Burger menu functionality
