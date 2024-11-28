@@ -268,6 +268,274 @@
         {
             "question": "Highlight",
             "answer": "Présenter, mettre en valeur"
+        },
+        {
+            "question": "Un PDG",
+            "answer": "CEO"
+        },
+        {
+            "question": "Un diplôme universitaire",
+            "answer": "College degree"
+        },
+        {
+            "question": "Une preuve",
+            "answer": "Evidence"
+        },
+        {
+            "question": "Embaucher",
+            "answer": "To hire"
+        },
+        {
+            "question": "Des antécédents",
+            "answer": "Track record"
+        },
+        {
+            "question": "Des réalisations, des réussites",
+            "answer": "Achievements"
+        },
+        {
+            "question": "Exagérer ses qualités sur un CV",
+            "answer": "To mark-up a CV"
+        },
+        {
+            "question": "Déformer la vérité",
+            "answer": "Stretching the truth"
+        },
+        {
+            "question": "Les compétences",
+            "answer": "Skills"
+        },
+        {
+            "question": "Les exigences de l’emploi",
+            "answer": "Job requirements"
+        },
+        {
+            "question": "Menteur",
+            "answer": "Fibbers"
+        },
+        {
+            "question": "Un candidat",
+            "answer": "Candidate, interviewee"
+        },
+        {
+            "question": "Un recruteur",
+            "answer": "Interviewer"
+        },
+        {
+            "question": "Enquête médico-légale",
+            "answer": "Forensic investigations"
+        },
+        {
+            "question": "Cacher",
+            "answer": "To conceal"
+        },
+        {
+            "question": "La probabilité",
+            "answer": "Likelihood"
+        },
+        {
+            "question": "Combattre",
+            "answer": "To struggle"
+        },
+        {
+            "question": "Mettre l’accent",
+            "answer": "To highlight"
+        },
+        {
+            "question": "Mettre en valeur",
+            "answer": "To showcase"
+        },
+        {
+            "question": "État d’esprit",
+            "answer": "A mindset"
+        },
+        {
+            "question": "Tirer profit",
+            "answer": "To leverage"
+        },
+        {
+            "question": "Entreprenant",
+            "answer": "Entrepreneurial"
+        },
+        {
+            "question": "Dévoué",
+            "answer": "Dedicated"
+        },
+        {
+            "question": "Être enclin à",
+            "answer": "To be prone to"
+        },
+        {
+            "question": "Prudent, frileux",
+            "answer": "Risk averse"
+        },
+        {
+            "question": "Événements marquants",
+            "answer": "Milestones"
+        },
+        {
+            "question": "Exploits",
+            "answer": "Achievements"
+        },
+        {
+            "question": "Capacité de travail",
+            "answer": "Workflow"
+        },
+        {
+            "question": "Maîtrise, compétence",
+            "answer": "Proficiency"
+        },
+        {
+            "question": "Fiabilité",
+            "answer": "Dependability"
+        },
+        {
+            "question": "Fiabilité",
+            "answer": "Reliability"
+        },
+        {
+            "question": "Cadre, objectif",
+            "answer": "Scope"
+        },
+        {
+            "question": "Responsible",
+            "answer": "Stakeholder"
+        },
+        {
+            "question": "Stratégies d’atténuation",
+            "answer": "Mitigation strategies"
+        },
+        {
+            "question": "S’exprimer de manière claire",
+            "answer": "To articulate"
+        },
+        {
+            "question": "Promouvoir",
+            "answer": "To foster"
+        },
+        {
+            "question": "Sensible",
+            "answer": "Sensitive"
+        },
+        {
+            "question": "Au-delà",
+            "answer": "Beyond"
+        },
+        {
+            "question": "Directives",
+            "answer": "Guidelines"
+        },
+        {
+            "question": "Président",
+            "answer": "Chairman"
+        },
+        {
+            "question": "Déduire",
+            "answer": "Inferred"
+        },
+        {
+            "question": "Mener à exécution",
+            "answer": "Carry out"
+        },
+        {
+            "question": "Cambriolage",
+            "answer": "Burglary"
+        },
+        {
+            "question": "Insinuer",
+            "answer": "Imply"
+        },
+        {
+            "question": "Ranger",
+            "answer": "Tidy"
+        },
+        {
+            "question": "Placard",
+            "answer": "Cupboard"
+        },
+        {
+            "question": "Ranger son placard",
+            "answer": "To tidy her cupboard"
+        },
+        {
+            "question": "Fouetter de la crème",
+            "answer": "Whip cream"
+        },
+        {
+            "question": "Ouragan",
+            "answer": "Hurricane"
+        },
+        {
+            "question": "Vague de chaleur / canicule",
+            "answer": "Heat wave"
+        },
+        {
+            "question": "S’étirer",
+            "answer": "Stretch"
+        },
+        {
+            "question": "Éprouvant / ardu",
+            "answer": "Strenuous"
+        },
+        {
+            "question": "Rester à l’intérieur",
+            "answer": "Stay indoor"
+        },
+        {
+            "question": "Personnes âgées",
+            "answer": "Elderly people"
+        },
+        {
+            "question": "Négligeant / imprudent",
+            "answer": "Careless"
+        },
+        {
+            "question": "Large",
+            "answer": "Broad"
+        },
+        {
+            "question": "Renforcer",
+            "answer": "Strengthen"
+        },
+        {
+            "question": "Approprié",
+            "answer": "Suitable"
+        },
+        {
+            "question": "Fiable / digne de confiance",
+            "answer": "Trustworthy"
+        },
+        {
+            "question": "Simplement / seulement",
+            "answer": "Merely"
+        },
+        {
+            "question": "Être inondé de",
+            "answer": "Inundated"
+        },
+        {
+            "question": "Sortir du lot",
+            "answer": "Stand out from the crowd"
+        },
+        {
+            "question": "À l’aise dans sa carrière",
+            "answer": "Career-savvy"
+        },
+        {
+            "question": "Un diplômé",
+            "answer": "A graduate"
+        },
+        {
+            "question": "Attirer l’attention",
+            "answer": "Grab attention"
+        },
+        {
+            "question": "Postuler pour un emploi",
+            "answer": "Apply for a job"
+        },
+        {
+            "question": "Présenter, mettre en valeur",
+            "answer": "Highlight"
         }
     ]
 }
